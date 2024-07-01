@@ -8,3 +8,18 @@ h2,h3{color:#F7CAC9}
 body{background-color:aquamarine;}
 title{color:aquamarine;}
 textarea{color:lightblue;}
+.boldface{
+
+    font-weight:bold;
+    color:blue;
+
+
+}
+.div{
+font-size:400%;
+
+}
+p::before{
+content:"ideas";
+
+}
