@@ -1,24 +1,37 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <link href = "<link href="./johnny.css" type="text/css" rel="stylesheet">" type="text/css" rel="stylesheet" />
+    <link href = "johnny.css" type="text/css" rel="stylesheet"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Input Display with Local Storage</title>
 </head>
-
 <body>
-<h1 class="rule">Notable Ideas</h1>
-<h2>Day 1</h2>
-<section><ol>
-    <li>Use <em>every</em> single idea you have</li>
-    <li>Review your ideas everyday</li>
-    <li>Figure out a way to automate the process of writing down ideas so they can be done on your website</li>
-    <li>Create a mental image of what you are trying to learn, incorporate lots of data</li>
-    <div><li>Associate what isn't known with what is</li></div>
-</ol></section>
-<h2>End of Day 1: The Grand Winner </h2>
-<h3>Associate what isn't known with what is: <a href ="https://youtu.be/HyC8RBN9HGs?si=N0P0omjHzsMnphyE"target="_blank">Source</a> 1:10-1:30</h3>
-<image src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8-xMRwxFrI7YUo_LFHp3q8sysn2UxfkOJKQ&s">
+    <h2>Enter Your Text:</h2>
+    <form id="textInputForm">
+        <textarea id="userInput" name="userInput" rows="4" cols="50"></textarea><br>
+        <button type="submit">Submit</button>
+    </form>
+<div id="displayArea">
+        <!-- User input will be displayed here -->
+    </div>
 
+<script>
+        // Check if there's a saved userInput in localStorage
+        var savedUserInput = localStorage.getItem("userInput");
+        if (savedUserInput) {
+            document.getElementById("displayArea").innerHTML = savedUserInput;
+        }
 
-
-
+        document.getElementById("textInputForm").addEventListener("submit", function(event) {
+            event.preventDefault(); // Prevent form submission
+            var userInput = document.getElementById("userInput").value;
+            document.getElementById("displayArea").innerHTML = "<p>You entered:<br>" + userInput.replace(/\n/g, "<br>") + "</p>";
+            
+            // Save userInput to localStorage
+            localStorage.setItem("userInput", userInput);
+        });
+    </script>
 </body>
 </html>
+
