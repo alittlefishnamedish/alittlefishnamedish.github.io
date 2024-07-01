@@ -1,7 +1,7 @@
 <html>
 <head>
     <link href = "style.css" type="text/css" rel="stylesheet" />
-  
+    <title>Ismail Safdari Personal Website</title>
 </head>
 
 <body>
