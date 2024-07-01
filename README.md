@@ -1,16 +1,6 @@
 <html>
 <head>
-    <link href = "style.css" type="text/css" rel="stylesheet" />
-    <style>
-body {
-  background-color: linen;
-}
-
-h1 {
-  color: maroon;
-  margin-left: 40px;
-}
-</style>
+    <link href = "<link href="./johnny.css" type="text/css" rel="stylesheet">" type="text/css" rel="stylesheet" />
 </head>
 
 <body>
