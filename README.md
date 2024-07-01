@@ -1,7 +1,16 @@
 <html>
 <head>
     <link href = "style.css" type="text/css" rel="stylesheet" />
-    <title>Ismail Safdari Personal Website</title>
+    <style>
+body {
+  background-color: linen;
+}
+
+h1 {
+  color: maroon;
+  margin-left: 40px;
+}
+</style>
 </head>
 
 <body>
