@@ -16,7 +16,7 @@
 </ol></section>
 <h2>End of Day 1: The Grand Winner </h2>
 <h3>Associate what isn't known with what is: <a href ="https://youtu.be/HyC8RBN9HGs?si=N0P0omjHzsMnphyE"target="_blank">Source</a> 1:10-1:30</h3>
-
+<image src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8-xMRwxFrI7YUo_LFHp3q8sysn2UxfkOJKQ&s">
 
 
 
