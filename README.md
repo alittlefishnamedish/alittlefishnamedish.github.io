@@ -26,7 +26,7 @@
         document.getElementById("textInputForm").addEventListener("submit", function(event) {
             event.preventDefault(); // Prevent form submission
             var userInput = document.getElementById("userInput").value;
-            document.getElementById("displayArea").innerHTML = "<p>You entered:<br>" + userInput.replace(/\n/g, "<br>") + "</p>";
+            document.getElementById("displayArea").innerHTML = userInput.replace(/\n/g, "<br>") + "</p>";
             
             // Save userInput to localStorage
             localStorage.setItem("userInput", userInput);
