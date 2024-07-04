@@ -4,7 +4,7 @@
 </head>
 <body>
 <input id ="know">
-<button onclick="bando()"placeholder="hello">submit</button>
+<button id ="mello" onclick="bando()"placeholder="hello">submit</button>
 <script>
 function bando(){
 let somevar = document.getElementById("know")
