@@ -9,7 +9,7 @@
 function bando(){
 let somevar = document.getElementById("know")
 let realvar = somevar.value
-document.write(realvar)
+document.write("what is up guys" + realvar)
 
 
 
