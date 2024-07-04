@@ -1,8 +1,15 @@
 <html>
  <body>
-  <a href="#" class="button">Post comment (link)</a>
-<input class="button" type="submit" value="Post comment (input)">
-<button class="button" type="submit">Post comment (button)</button>  
+<input id ="why">
+<button class="button"<button class="button"onclick="jonjones()">submit</button> 
+<script>
+ function jonjones(){
+ let truager = document.getElementById("why")
+ let neugar = truager.value
+ document.write(neugar)
+  }
+</script>
+ 
 </body>   
 </html>
 
