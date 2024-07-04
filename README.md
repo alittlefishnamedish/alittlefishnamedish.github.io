@@ -3,9 +3,20 @@
     <link href="johnny.css" type="style/css" rel="stylesheet"/>      
 </head>
 <body>
-<h1 id ="boldface">Coding checklist</h1>   
-<ol>
-<input id="og" type="checkbox">idea
-</ol>
+<input id ="know">
+<button onclick="bando()"placeholder="hello">submit</button>
+<script>
+function bando(){
+let somevar = document.getElementById("know")
+let realvar = somevar.value
+document.write(realvar)
+
+
+
+
+
+}
+    
+</script>
 </body>
 </html>
