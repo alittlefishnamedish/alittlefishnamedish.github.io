@@ -1,25 +1,10 @@
 body{background-image: url("https://wallpapers.com/images/hd/the-backrooms-sk00mt9u0xv0guhv.jpg");}
-li{color:#92A8D1}
-h2,h3{color:#F7CAC9}
-.rule{
-    
-    color:rgb(83, 83, 166);
+p{color:#92A8D1}
+p{
+font-weight:bold;
+color:blue;
 }
-body{background-color:aquamarine;}
-title{color:aquamarine;}
-textarea{color:lightblue;}
-.boldface{
-
-    font-weight:bold;
-    color:blue;
-
-
-}
-.div{
+p{
 font-size:400%;
-
 }
-p::before{
-content:"ideas";
 
-}
