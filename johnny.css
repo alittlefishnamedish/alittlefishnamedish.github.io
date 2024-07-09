@@ -4,26 +4,3 @@ body {
   font-family: 'Baskerville', serif; /* Fallback to serif font */
 }
 
-body{background-image: url("https://wallpapers.com/images/hd/the-backrooms-sk00mt9u0xv0guhv.jpg");}
-p{
-font-size:140%;
-line-height:2.5;
-font-family: 'Baskerville', serif;
-color:#967BB6;
-font-weight:bold;
-margin-left:20px;
-border: 4px solid black;
-padding: 20px;
-width: fit-content;
-text-decoration:overline, underline;
-}
-button{
-background-color:aquamarine;
-color:green
-}
-input{
-background-color;MediumSeaGreen:
-color;black:
-width;50%:
-}
-
