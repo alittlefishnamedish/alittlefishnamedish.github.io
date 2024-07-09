@@ -1,9 +1,19 @@
+
+
+body {
+  font-family: 'Baskerville', serif; /* Fallback to serif font */
+}
+
+
 body{background-image: url("https://wallpapers.com/images/hd/the-backrooms-sk00mt9u0xv0guhv.jpg");}
 p{
 font-size:140%;
 line-height:2.5;
+font-family: 'Baskerville', serif;
 color:#967BB6;
 font-weight:bold;
-margin-left:5%;
+margin-left:20px;
+border: 4px solid rgb(255,0,0);
+text-decoration:overline;
 }
 
