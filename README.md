@@ -6,9 +6,9 @@
 
 <body>
 <script src = "ken.js"></script>
-<input class = "special" id ="fan">
+<input id ="fan">
 <button onclick="welcome()">submit</button>
-<p class="actual"id="ideas"></p>
+<p id="ideas"></p>
 
 </body>
 </html>
