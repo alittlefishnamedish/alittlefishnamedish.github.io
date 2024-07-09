@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <head>
-<link type="johnny/css" rel="stylesheet" href="stylesheets/main.css" />
+ <link rel="stylesheet" type="text/css" href="johnny.css">
 </head>
 
 <body>
