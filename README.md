@@ -1,5 +1,5 @@
 
-
+<! DOCTYPE HTML>
 <head>
  <link href = "johnny.css" type="text/css" rel="stylesheet" />
 </head>
@@ -13,4 +13,5 @@
 <p id="ideas"></p>
 
 </body>
+</html>
 
