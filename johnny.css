@@ -6,7 +6,7 @@ body {
 
 
 body{background-image: url("https://wallpapers.com/images/hd/the-backrooms-sk00mt9u0xv0guhv.jpg");}
-.actual{
+p{
 font-size:140%;
 line-height:2.5;
 font-family: 'Baskerville', serif;
@@ -22,7 +22,7 @@ button{
 background-color:aquamarine;
 color:green
 }
-.special{
+input{
 background-color;MediumSeaGreen:
 color;black:
 width;50%:
