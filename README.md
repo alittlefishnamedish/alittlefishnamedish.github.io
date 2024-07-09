@@ -8,7 +8,7 @@
 <script src = "ken.js"></script>
 <input id ="fan">
 <button onclick="welcome()">submit</button>
-<p id="ideas"></p>
+<p class="actual"id="ideas"></p>
 
 </body>
 </html>
