@@ -1,5 +1,4 @@
 window.onload=function(){
-    localStorage.clear()
     simple()
 }
 function simple(){
