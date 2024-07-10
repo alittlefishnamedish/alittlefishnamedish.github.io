@@ -4,7 +4,23 @@
 body {
   font-family: 'Baskerville', serif; /* Fallback to serif font */
 }
+.change{
+padding:30px;
+border:4px solid grey;
+border-radius:8px;
+width:100%;
+box-sizing:border-box;
+min-height:100px;
+resize:vertical;
+color:aquamarine;
+background-color:grey;
 
+
+
+
+
+  
+}
 
 body{background-image: url("https://wallpapers.com/images/hd/the-backrooms-sk00mt9u0xv0guhv.jpg");}
 p{
