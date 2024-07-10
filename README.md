@@ -6,7 +6,7 @@
 
 <body>
 <script src = "ken.js"></script>
-<input id ="fan">
+<textarea class="change" id ="fan" placeholder="enter ideas here"></textarea>
 <button onclick="welcome()">submit</button>
 <p id="ideas"></p>
 
