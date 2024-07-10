@@ -12,8 +12,8 @@ width:100%;
 box-sizing:border-box;
 min-height:100px;
 resize:vertical;
-color:aquamarine;
-background-color:grey;
+background-color:#050638;
+color:#5a0505;
 
 
 
@@ -32,12 +32,6 @@ font-weight:bold;
 margin-left:5%;
 margin-left:20px;
 border: 4px solid rgb(255,0,0);
-padding: 30px;
-text-decoration:overline;
-}
-textarea{
-background-color:#050638;
-color:#5a0505;
 }
 button{
 background-color:	#04291b;
